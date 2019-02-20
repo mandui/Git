@@ -33,10 +33,10 @@ git是一个挺好用的工具，但并不是那种今天看文档，明天就�
 
 2. 设置用户名和邮箱地址，这样查看记录时才能知道'你'是谁，不用担心，这些都可以再次修改；
 
-'''
+```
 git config --global user.name "Your name"
 git config --global user.email "youremail@some.com"
-'''
+```
 
 3. 打开[Git-Playground Github页面](https://github.com/mandui/git-playground/tree/master)，找到这个repo的地址，并复制。
 
