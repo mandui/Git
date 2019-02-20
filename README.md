@@ -23,3 +23,18 @@
 - [Playground](https://learngitbranching.js.org/)：个人最喜欢的，一个git练习场，有场景可操作，帮你搞清楚这些操作究竟有什么用处。
 
 git是一个挺好用的工具，但并不是那种今天看文档，明天就能知道该如何使用的工具，建议大家建一个github账号，可以当作服务器版本，本地远程多玩儿几回。
+
+## Step Zero
+这两天一直在看一些以前未曾接触过的技术方面，让我感慨，对于beginner来说最难的就是如何平稳正确地运行出教程的第一步，我称之为step zero。
+
+所以这里，我写一个git的step zero，希望能对大家有帮助。
+
+1. 确认自己安装了git
+
+打开terminal/cmd/gitbash，输入git，出现git参数显示，说明安装成功；
+2. 打开[Git-Playground Github页面](https://github.com/mandui/git-playground/tree/master)，找到这个repo的地址，并复制。
+
+3. 本地找一个你喜欢的文件夹，打开terminal/cmd/gitbash，输入以下命令，从Github拉回一个copy，完成后你应该能看到来自过往的友好问候。
+```
+git clone [第2步中找到的地址]
+```
